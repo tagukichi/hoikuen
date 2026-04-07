@@ -326,6 +326,18 @@ ul, ol {
   transition: var(--transition);
 }
 
+.hamburger.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
 /* ===== ヒーローセクション ===== */
 .hero {
   min-height: 100vh;
@@ -1587,15 +1599,13 @@ ul, ol {
   .features-grid { grid-template-columns: 1fr; }
 
   .gallery-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
-  .gallery-item--featured { grid-column: span 2; grid-row: span 1; }
-  .gallery-item--featured .gallery-polaroid { height: 200px; }
+  .gallery-item--lg { grid-column: span 1; }
+  .gallery-item--lg .gallery-polaroid { height: 240px; }
   .gallery-item--sm { grid-column: span 1; }
-  .gallery-item--sm .gallery-polaroid { height: 140px; }
-  .gallery-item--md { grid-column: span 1; }
-  .gallery-item--md .gallery-polaroid { height: 140px; }
+  .gallery-item--sm .gallery-polaroid { height: 200px; }
 
   .footer-inner { grid-template-columns: 1fr; }
   .footer-brand { grid-column: span 1; }

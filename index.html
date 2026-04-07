@@ -768,6 +768,7 @@
     // ハンバーガーメニュー（モバイル用）
     const hamburger = document.getElementById('hamburger');
     hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('open');
       const nav = document.querySelector('.header-nav');
       const isOpen = nav.style.display === 'flex';
       nav.style.display = isOpen ? '' : 'flex';
