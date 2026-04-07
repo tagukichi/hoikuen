@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ひだまり保育園 — 子どもたちの笑顔があふれる、あたたかな保育園。東京都世田谷区にある認可保育園です。" />
+  <title>ひだまり保育園 | 子どもたちの笑顔があふれる、あたたかな保育園</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Zen+Maru+Gothic:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===== ヘッダー ===== -->
+  <header class="header" id="header">
+    <a href="#" class="header-logo">
+      <div class="logo-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="5" fill="#F9829A"/><ellipse cx="16" cy="6" rx="3.5" ry="5" fill="#FFB5C6"/><ellipse cx="16" cy="26" rx="3.5" ry="5" fill="#FFB5C6"/><ellipse cx="6" cy="16" rx="5" ry="3.5" fill="#FFB5C6"/><ellipse cx="26" cy="16" rx="5" ry="3.5" fill="#FFB5C6"/><ellipse cx="9" cy="9" rx="3.5" ry="5" transform="rotate(-45 9 9)" fill="#FFCDD9"/><ellipse cx="23" cy="9" rx="3.5" ry="5" transform="rotate(45 23 9)" fill="#FFCDD9"/><ellipse cx="9" cy="23" rx="3.5" ry="5" transform="rotate(45 9 23)" fill="#FFCDD9"/><ellipse cx="23" cy="23" rx="3.5" ry="5" transform="rotate(-45 23 23)" fill="#FFCDD9"/></svg></div>
+      <span>ひだまり保育園</span>
+    </a>
+
+    <nav class="header-nav" aria-label="メインナビゲーション">
+      <a href="#features" class="nav-link">保育の特徴</a>
+      <a href="#schedule" class="nav-link">一日の流れ</a>
+      <a href="#gallery" class="nav-link">フォトギャラリー</a>
+      <a href="#news" class="nav-link">お知らせ</a>
+      <a href="#access" class="nav-link">アクセス</a>
+    </nav>
+
+    <a href="#contact" class="btn btn-primary header-cta">入園相談</a>
+
+    <button class="hamburger" aria-label="メニューを開く" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <main>
+
+    <!-- ===== ヒーローセクション ===== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <!-- 背景ブロブ -->
+      <div class="hero-bg-blob hero-bg-blob-1" aria-hidden="true"></div>
+      <div class="hero-bg-blob hero-bg-blob-2" aria-hidden="true"></div>
+      <div class="hero-bg-blob hero-bg-blob-3" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-inner">
+          <!-- テキストゾーン -->
+          <div class="hero-text">
+            <div class="hero-badge">
+              <span>認可保育園 · 世田谷区</span>
+            </div>
+
+            <h1 class="hero-title" id="hero-title">
+              子どもたちの<br>
+              <span class="accent">笑顔</span>があふれる、<br>
+              あたたかな場所。
+            </h1>
+
+            <p class="hero-copy">
+              ひだまり保育園は、子どもひとりひとりの個性を大切に、<br>
+              のびのびと成長できる環境を整えています。<br>
+              安心して預けられる、もうひとつのおうちです。
+            </p>
+
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary">入園のご相談</a>
+              <a href="#features" class="btn btn-outline">保育の特徴を見る</a>
+            </div>
+
+            <div class="hero-stats">
+              <div class="hero-stat">
+                <div class="num">98<small style="font-size:0.6em">%</small></div>
+                <div class="label">保護者満足度</div>
+              </div>
+              <div class="hero-stat">
+                <div class="num">30<small style="font-size:0.6em">名</small></div>
+                <div class="label">定員</div>
+              </div>
+              <div class="hero-stat">
+                <div class="num">15<small style="font-size:0.6em">年</small></div>
+                <div class="label">地域の信頼</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ビジュアルゾーン -->
+          <div class="hero-visual">
+            <!-- フローティングカード（左上） -->
+            <div class="hero-float-card hero-float-card-1" aria-hidden="true">
+              <span class="fc-text">自然遊び<br>泥んこ体験</span>
+            </div>
+
+            <!-- フローティングカード（右上） -->
+            <div class="hero-float-card hero-float-card-3" aria-hidden="true">
+              <span class="fc-text">のびのびと<br>成長中</span>
+            </div>
+
+            <!-- スライドショー -->
+            <div class="hero-main-card" id="heroSlideshow">
+              <div class="slideshow-container">
+                <div class="slide active">
+                  <img src="https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?w=840&q=80" alt="元気に遊ぶ子どもたちの様子" loading="eager" />
+                </div>
+                <div class="slide">
+                  <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=840&q=80" alt="保育園で遊ぶ子どもたち" loading="lazy" />
+                </div>
+                <div class="slide">
+                  <img src="https://images.unsplash.com/photo-1609220136736-443140cffec6?w=840&q=80" alt="外で笑顔の子どもたち" loading="lazy" />
+                </div>
+                <div class="slide">
+                  <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=840&q=80" alt="お絵かきを楽しむ子ども" loading="lazy" />
+                </div>
+                <div class="slide">
+                  <img src="https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=840&q=80" alt="友達と遊ぶ子どもたち" loading="lazy" />
+                </div>
+              </div>
+              <!-- スライドインジケーター -->
+              <div class="slideshow-dots" aria-hidden="true">
+                <button class="dot active" data-index="0"></button>
+                <button class="dot" data-index="1"></button>
+                <button class="dot" data-index="2"></button>
+                <button class="dot" data-index="3"></button>
+                <button class="dot" data-index="4"></button>
+              </div>
+              <div class="hero-card-badge">
+                <div class="text">
+                  <strong>毎日、外遊び・体験学習</strong>
+                  <span>晴れの日も雨の日も、豊かな体験を</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- フローティングカード（左中） -->
+            <div class="hero-float-card hero-float-card-4" aria-hidden="true">
+              <span class="fc-text">うた・ダンス<br>表現あそび</span>
+            </div>
+
+            <!-- フローティングカード（右下） -->
+            <div class="hero-float-card hero-float-card-2" aria-hidden="true">
+              <span class="fc-text">手作り給食<br>おやつ</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ウェーブ区切り -->
+    <div class="wavy-divider" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,80 L0,80 Z" fill="#FFF5F7" />
+      </svg>
+    </div>
+
+    <!-- ===== 特徴セクション ===== -->
+    <section class="features" id="features" aria-labelledby="features-title">
+      <!-- SVG背景デコレーション -->
+      <div class="features-svg-deco" aria-hidden="true">
+        <!-- 星 -->
+        <svg class="deco-svg deco-star-1" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30 5 L35 22 L53 22 L39 33 L44 50 L30 39 L16 50 L21 33 L7 22 L25 22 Z" fill="#FFD166" opacity="0.5"/>
+        </svg>
+        <svg class="deco-svg deco-star-2" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 3 L23 14 L35 14 L26 21 L29 33 L20 26 L11 33 L14 21 L5 14 L17 14 Z" fill="#F9829A" opacity="0.4"/>
+        </svg>
+        <svg class="deco-svg deco-star-3" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+          <path d="M25 4 L29 17 L43 17 L32 26 L36 39 L25 31 L14 39 L18 26 L7 17 L21 17 Z" fill="#7DCEB8" opacity="0.4"/>
+        </svg>
+        <!-- 積み木 -->
+        <svg class="deco-svg deco-block-1" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+          <rect x="5" y="5" width="32" height="32" rx="6" fill="#FFB5C6" opacity="0.5"/>
+          <rect x="43" y="5" width="32" height="32" rx="6" fill="#7DCEB8" opacity="0.5"/>
+          <rect x="24" y="43" width="32" height="32" rx="6" fill="#FFD166" opacity="0.5"/>
+        </svg>
+        <svg class="deco-svg deco-block-2" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+          <rect x="5" y="5" width="24" height="24" rx="5" fill="#C8B6E2" opacity="0.5"/>
+          <rect x="31" y="5" width="24" height="24" rx="5" fill="#FFAB76" opacity="0.5"/>
+          <rect x="18" y="31" width="24" height="24" rx="5" fill="#93D5E8" opacity="0.5"/>
+        </svg>
+        <!-- 風船 -->
+        <svg class="deco-svg deco-balloon-1" viewBox="0 0 50 80" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="25" cy="28" rx="22" ry="26" fill="#F9829A" opacity="0.35"/>
+          <path d="M25 54 Q27 62 25 75" stroke="#F9829A" stroke-width="2" fill="none" opacity="0.4" stroke-linecap="round"/>
+        </svg>
+        <svg class="deco-svg deco-balloon-2" viewBox="0 0 50 80" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="25" cy="28" rx="22" ry="26" fill="#7DCEB8" opacity="0.35"/>
+          <path d="M25 54 Q27 62 25 75" stroke="#7DCEB8" stroke-width="2" fill="none" opacity="0.4" stroke-linecap="round"/>
+        </svg>
+        <!-- ハート -->
+        <svg class="deco-svg deco-heart-1" viewBox="0 0 60 55" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30 52 L5 27 C1 22 1 13 8 9 C15 5 22 8 30 16 C38 8 45 5 52 9 C59 13 59 22 55 27 Z" fill="#FFB5C6" opacity="0.5"/>
+        </svg>
+        <svg class="deco-svg deco-heart-2" viewBox="0 0 40 37" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 35 L3 18 C0 14 0 8 5 6 C10 3 15 5 20 11 C25 5 30 3 35 6 C40 8 40 14 37 18 Z" fill="#C8B6E2" opacity="0.45"/>
+        </svg>
+        <!-- 音符 -->
+        <svg class="deco-svg deco-note-1" viewBox="0 0 40 60" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="14" cy="48" rx="12" ry="9" fill="#FFD166" opacity="0.5"/>
+          <rect x="24" y="10" width="4" height="40" rx="2" fill="#FFD166" opacity="0.5"/>
+          <path d="M28 10 L40 6 L40 22 L28 26 Z" fill="#FFD166" opacity="0.5"/>
+        </svg>
+        <!-- 虹 -->
+        <svg class="deco-svg deco-rainbow" viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 75 Q10 20 60 20 Q110 20 110 75" stroke="#FF6B8E" stroke-width="7" fill="none" opacity="0.18" stroke-linecap="round"/>
+          <path d="M20 75 Q20 33 60 33 Q100 33 100 75" stroke="#FFD166" stroke-width="7" fill="none" opacity="0.18" stroke-linecap="round"/>
+          <path d="M30 75 Q30 46 60 46 Q90 46 90 75" stroke="#7DCEB8" stroke-width="7" fill="none" opacity="0.18" stroke-linecap="round"/>
+        </svg>
+        <!-- 丸型デコ -->
+        <svg class="deco-svg deco-circle-1" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="30" cy="30" r="28" fill="none" stroke="#FFB5C6" stroke-width="4" stroke-dasharray="8 6" opacity="0.4"/>
+        </svg>
+        <svg class="deco-svg deco-circle-2" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="18" fill="none" stroke="#7DCEB8" stroke-width="3" stroke-dasharray="6 5" opacity="0.4"/>
+        </svg>
+      </div>
+
+      <div class="container">
+        <div class="features-header animate-on-scroll">
+          <div class="section-label">OUR FEATURES</div>
+          <h2 class="section-title" id="features-title">ひだまり保育園の<br>6つの特徴</h2>
+          <p class="section-desc" style="margin:0 auto;">
+            子どもたちが「また来たい！」と思える保育園を目指し、
+            安全・安心・笑顔を大切にした保育を行っています。
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card feature-card--green animate-on-scroll" style="transition-delay:0.05s">
+            <div class="feature-img-wrap">
+              <img src="https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=400&q=80" alt="公園で遊ぶ子どもたち" loading="lazy" />
+            </div>
+            <div class="feature-num">01</div>
+            <div class="feature-title">のびのび自然体験</div>
+            <p class="feature-desc">
+              近くの公園や畑で泥んこ遊び・野菜の収穫など、五感を使った体験を毎週実施。自然の不思議さを体で感じます。
+            </p>
+            <div class="feature-tag">毎週実施</div>
+          </div>
+
+          <div class="feature-card feature-card--peach animate-on-scroll" style="transition-delay:0.1s">
+            <div class="feature-img-wrap">
+              <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&q=80" alt="給食を楽しむ子どもたち" loading="lazy" />
+            </div>
+            <div class="feature-num">02</div>
+            <div class="feature-title">栄養満点・手作り給食</div>
+            <p class="feature-desc">
+              管理栄養士監修の手作り給食。地元の旬の食材を使い、子どもが「食べることが好き」になる食育を大切に。
+            </p>
+            <div class="feature-tag">食育重視</div>
+          </div>
+
+          <div class="feature-card feature-card--yellow animate-on-scroll" style="transition-delay:0.15s">
+            <div class="feature-img-wrap">
+              <img src="https://images.unsplash.com/photo-1567748157439-651aca2ff064?w=400&q=80" alt="保育士と子どもたち" loading="lazy" />
+            </div>
+            <div class="feature-num">03</div>
+            <div class="feature-title">少人数・丁寧な保育</div>
+            <p class="feature-desc">
+              定員30名の小規模保育園。保育士ひとりひとりが子どもの名前・個性・好きなことを把握し、きめ細かくサポート。
+            </p>
+            <div class="feature-tag">定員30名</div>
+          </div>
+
+          <div class="feature-card feature-card--lavender animate-on-scroll" style="transition-delay:0.2s">
+            <div class="feature-img-wrap">
+              <img src="https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?w=400&q=80" alt="絵を描く子ども" loading="lazy" />
+            </div>
+            <div class="feature-num">04</div>
+            <div class="feature-title">創造力を育む表現活動</div>
+            <p class="feature-desc">
+              絵画・工作・音楽・ダンス・劇ごっこなど多彩な表現活動を通じて、子どもの感性と創造力を豊かに育てます。
+            </p>
+            <div class="feature-tag">多彩な活動</div>
+          </div>
+
+          <div class="feature-card feature-card--sky animate-on-scroll" style="transition-delay:0.25s">
+            <div class="feature-img-wrap">
+              <img src="https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=400&q=80" alt="安全な保育環境" loading="lazy" />
+            </div>
+            <div class="feature-num">05</div>
+            <div class="feature-title">安全・安心な環境</div>
+            <p class="feature-desc">
+              セキュリティカメラ・オートロック・AED完備。全保育士が救急救命講習修了。保護者アプリで毎日の様子をお知らせ。
+            </p>
+            <div class="feature-tag">24時間安心</div>
+          </div>
+
+          <div class="feature-card feature-card--pink animate-on-scroll" style="transition-delay:0.3s">
+            <div class="feature-img-wrap">
+              <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=400&q=80" alt="保護者と保育士の連携" loading="lazy" />
+            </div>
+            <div class="feature-num">06</div>
+            <div class="feature-title">保護者と一緒に育てる</div>
+            <p class="feature-desc">
+              連絡帳・保護者会・個別面談・参観日を通じ、家庭と園が連携。お母さん・お父さんの育児の不安にも丁寧に寄り添います。
+            </p>
+            <div class="feature-tag">いつでも連絡</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ウェーブ区切り（逆向き） -->
+    <div class="wavy-divider" aria-hidden="true" style="background:#FFF5F7;">
+      <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,40 C240,0 480,80 720,40 C960,0 1200,80 1440,40 L1440,80 L0,80 Z" fill="#FFFBFC" />
+      </svg>
+    </div>
+
+    <!-- ===== 一日の流れセクション ===== -->
+    <section class="schedule" id="schedule" aria-labelledby="schedule-title">
+      <div class="container">
+        <div class="schedule-inner">
+          <!-- 画像 -->
+          <div class="schedule-image animate-on-scroll">
+            <div class="schedule-image-main">
+              <img src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=700&q=80" alt="保育園での子どもたちのようす"
+                loading="lazy" />
+            </div>
+            <div class="schedule-image-sub">
+              <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=320&q=80" alt="お昼寝タイムの様子"
+                loading="lazy" />
+            </div>
+          </div>
+
+          <!-- スケジュール -->
+          <div class="animate-on-scroll" style="transition-delay:0.15s">
+            <div class="section-label">DAILY SCHEDULE</div>
+            <h2 class="section-title" id="schedule-title">一日の流れ</h2>
+            <p class="section-desc" style="margin-bottom:1.8rem;">
+              安定したリズムの中で、子どもたちが安心して過ごせる一日をご紹介します。
+            </p>
+
+            <div class="schedule-list" role="list">
+              <div class="schedule-item" role="listitem">
+                <div class="schedule-time">7:00</div>
+                <div class="schedule-content">
+                  <div class="time-label">開園・順次登園</div>
+                  <p>保護者の方のお仕事スタートに合わせて、笑顔でお出迎え。</p>
+                </div>
+              </div>
+
+              <div class="schedule-item" role="listitem">
+                <div class="schedule-time">9:30</div>
+                <div class="schedule-content">
+                  <div class="time-label">朝の会・自由遊び</div>
+                  <p>歌・手遊び・絵本読み聞かせ。その後は室内外で自由に遊びます。</p>
+                </div>
+              </div>
+
+              <div class="schedule-item" role="listitem">
+                <div class="schedule-time">10:30</div>
+                <div class="schedule-content">
+                  <div class="time-label">設定保育・課外活動</div>
+                  <p>週ごとにテーマを決めた制作・自然遊び・体育など。</p>
+                </div>
+              </div>
+
+              <div class="schedule-item" role="listitem">
+                <div class="schedule-time">12:00</div>
+                <div class="schedule-content">
+                  <div class="time-label">給食・おやつ</div>
+                  <p>手作り給食をみんなで楽しく。「いただきます」の気持ちを大切に。</p>
+                </div>
+              </div>
+
+              <div class="schedule-item" role="listitem">
+                <div class="schedule-time">13:00</div>
+                <div class="schedule-content">
+                  <div class="time-label">午睡（0〜2歳児）</div>
+                  <p>安全に見守りながら、ゆっくりお昼寝タイム。</p>
+                </div>
+              </div>
+
+              <div class="schedule-item" role="listitem">
+                <div class="schedule-time">15:00</div>
+                <div class="schedule-content">
+                  <div class="time-label">おやつ・自由遊び</div>
+                  <p>手作りおやつを食べた後は、好きな遊びを思いきり楽しみます。</p>
+                </div>
+              </div>
+
+              <div class="schedule-item" role="listitem">
+                <div class="schedule-time">16:00〜</div>
+                <div class="schedule-content">
+                  <div class="time-label">順次降園（延長保育あり）</div>
+                  <p>最大19時まで延長保育に対応。安心してお仕事に集中できます。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ウェーブ区切り -->
+    <div class="wavy-divider" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,80 L0,80 Z" fill="#FFF5F7" />
+      </svg>
+    </div>
+
+    <!-- ===== ギャラリーセクション ===== -->
+    <section class="gallery" id="gallery" aria-labelledby="gallery-title">
+      <!-- SVGデコレーション -->
+      <div class="gallery-svg-deco" aria-hidden="true">
+        <svg class="gdeco gdeco-star-a" viewBox="0 0 50 50"><path d="M25 4 L29 17 L43 17 L32 26 L36 39 L25 31 L14 39 L18 26 L7 17 L21 17 Z" fill="#FFD166" opacity="0.55"/></svg>
+        <svg class="gdeco gdeco-star-b" viewBox="0 0 40 40"><path d="M20 3 L23 14 L35 14 L26 21 L29 33 L20 26 L11 33 L14 21 L5 14 L17 14 Z" fill="#F9829A" opacity="0.45"/></svg>
+        <svg class="gdeco gdeco-heart-a" viewBox="0 0 60 55"><path d="M30 52 L5 27 C1 22 1 13 8 9 C15 5 22 8 30 16 C38 8 45 5 52 9 C59 13 59 22 55 27 Z" fill="#FFB5C6" opacity="0.5"/></svg>
+        <svg class="gdeco gdeco-heart-b" viewBox="0 0 40 37"><path d="M20 35 L3 18 C0 14 0 8 5 6 C10 3 15 5 20 11 C25 5 30 3 35 6 C40 8 40 14 37 18 Z" fill="#C8B6E2" opacity="0.45"/></svg>
+        <svg class="gdeco gdeco-dot-a" viewBox="0 0 60 60"><circle cx="30" cy="30" r="28" fill="none" stroke="#7DCEB8" stroke-width="4" stroke-dasharray="8 6" opacity="0.4"/></svg>
+        <svg class="gdeco gdeco-balloon-a" viewBox="0 0 50 80"><ellipse cx="25" cy="28" rx="22" ry="26" fill="#93D5E8" opacity="0.35"/><path d="M25 54 Q27 62 25 75" stroke="#93D5E8" stroke-width="2" fill="none" opacity="0.4" stroke-linecap="round"/></svg>
+        <svg class="gdeco gdeco-note-a" viewBox="0 0 40 60"><ellipse cx="14" cy="48" rx="12" ry="9" fill="#FFD166" opacity="0.5"/><rect x="24" y="10" width="4" height="40" rx="2" fill="#FFD166" opacity="0.5"/><path d="M28 10 L40 6 L40 22 L28 26 Z" fill="#FFD166" opacity="0.5"/></svg>
+        <svg class="gdeco gdeco-rainbow-a" viewBox="0 0 120 80"><path d="M10 75 Q10 20 60 20 Q110 20 110 75" stroke="#FF6B8E" stroke-width="7" fill="none" opacity="0.15" stroke-linecap="round"/><path d="M20 75 Q20 33 60 33 Q100 33 100 75" stroke="#FFD166" stroke-width="7" fill="none" opacity="0.15" stroke-linecap="round"/><path d="M30 75 Q30 46 60 46 Q90 46 90 75" stroke="#7DCEB8" stroke-width="7" fill="none" opacity="0.15" stroke-linecap="round"/></svg>
+      </div>
+
+      <div class="container">
+        <div class="gallery-header animate-on-scroll">
+          <div class="section-label">PHOTO GALLERY</div>
+          <h2 class="section-title" id="gallery-title">子どもたちの毎日</h2>
+          <p class="section-desc" style="margin:0 auto 0.5rem;">
+            笑顔・発見・成長の瞬間をお届けします。
+          </p>
+        </div>
+
+
+
+        <div class="gallery-grid animate-on-scroll" style="transition-delay:0.1s">
+          <!-- 上段：大・小・小 -->
+          <div class="gallery-item gallery-item--lg">
+            <div class="gallery-polaroid">
+              <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80" alt="外遊びを楽しむ子どもたち" loading="lazy" />
+              <div class="gallery-overlay"><span class="gallery-overlay-label">外あそび</span></div>
+            </div>
+            <div class="gallery-caption">元気いっぱい外あそび</div>
+          </div>
+          <div class="gallery-item gallery-item--sm">
+            <div class="gallery-polaroid" style="--rot: 1.2deg;">
+              <img src="https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?w=600&q=80" alt="子どもたちと保育士" loading="lazy" />
+              <div class="gallery-overlay"><span class="gallery-overlay-label">日常</span></div>
+            </div>
+            <div class="gallery-caption">先生と一緒に楽しいひととき</div>
+          </div>
+          <div class="gallery-item gallery-item--sm">
+            <div class="gallery-polaroid" style="--rot: -1.5deg;">
+              <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=500&q=80" alt="お絵かきや制作を楽しむ子ども" loading="lazy" />
+              <div class="gallery-overlay"><span class="gallery-overlay-label">制作</span></div>
+            </div>
+            <div class="gallery-caption">想像力が広がる制作時間</div>
+          </div>
+          <!-- 下段：小・小・大 -->
+          <div class="gallery-item gallery-item--sm">
+            <div class="gallery-polaroid" style="--rot: -1.2deg;">
+              <img src="https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=600&q=80" alt="元気に遊ぶ子どもたち" loading="lazy" />
+              <div class="gallery-overlay"><span class="gallery-overlay-label">外あそび</span></div>
+            </div>
+            <div class="gallery-caption">みんなで楽しくかけっこ</div>
+          </div>
+          <div class="gallery-item gallery-item--sm">
+            <div class="gallery-polaroid" style="--rot: 1.8deg;">
+              <img src="https://images.unsplash.com/photo-1567748157439-651aca2ff064?w=500&q=80" alt="保育士と遊ぶ子どもたち" loading="lazy" />
+              <div class="gallery-overlay"><span class="gallery-overlay-label">日常</span></div>
+            </div>
+            <div class="gallery-caption">先生と一緒に笑顔いっぱい</div>
+          </div>
+          <div class="gallery-item gallery-item--lg">
+            <div class="gallery-polaroid" style="--rot: -0.8deg;">
+              <img src="https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?w=800&q=80" alt="園庭で遊ぶ子どもたち" loading="lazy" />
+              <div class="gallery-overlay"><span class="gallery-overlay-label">外あそび</span></div>
+            </div>
+            <div class="gallery-caption">毎日が発見と笑顔でいっぱい</div>
+          </div>
+        </div>
+
+        <div class="gallery-more animate-on-scroll" style="transition-delay:0.2s">
+          <a href="#" class="btn btn-outline">もっと見る</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ウェーブ区切り（逆向き） -->
+    <div class="wavy-divider" aria-hidden="true" style="background:#FFF5F7;">
+      <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,40 C240,0 480,80 720,40 C960,0 1200,80 1440,40 L1440,80 L0,80 Z" fill="#FFFBFC" />
+      </svg>
+    </div>
+
+    <!-- ===== お知らせセクション ===== -->
+    <section class="news" id="news" aria-labelledby="news-title">
+      <div class="container">
+        <div class="news-inner">
+          <!-- サイドバー -->
+          <div class="news-sidebar animate-on-scroll">
+            <div class="section-label">NEWS</div>
+            <h2 class="section-title" id="news-title">お知らせ</h2>
+            <p class="section-desc">
+              園のイベント・行事・
+              入園に関する情報を
+              随時お知らせします。
+            </p>
+            <a href="#" class="btn btn-outline" style="margin-top:1rem;">一覧を見る →</a>
+          </div>
+
+          <!-- ニュース一覧 -->
+          <div class="animate-on-scroll" style="transition-delay:0.1s">
+            <ul class="news-list" aria-label="お知らせ一覧">
+              <li class="news-item">
+                <div class="news-item-meta">
+                  <time class="news-item-date" datetime="2026-04-01">2026.04.01</time>
+                  <span class="news-tag pink">イベント</span>
+                </div>
+                <div class="news-item-title">春の遠足（4月25日）のご案内とご持参物について</div>
+              </li>
+
+              <li class="news-item">
+                <div class="news-item-meta">
+                  <time class="news-item-date" datetime="2026-03-28">2026.03.28</time>
+                  <span class="news-tag mint">保育情報</span>
+                </div>
+                <div class="news-item-title">2026年度 入園式のご案内（4月5日開催）</div>
+              </li>
+
+              <li class="news-item">
+                <div class="news-item-meta">
+                  <time class="news-item-date" datetime="2026-03-15">2026.03.15</time>
+                  <span class="news-tag pink">イベント</span>
+                </div>
+                <div class="news-item-title">卒園式を行いました。ご卒園おめでとうございます。</div>
+              </li>
+
+              <li class="news-item">
+                <div class="news-item-meta">
+                  <time class="news-item-date" datetime="2026-03-01">2026.03.01</time>
+                  <span class="news-tag yellow">お知らせ</span>
+                </div>
+                <div class="news-item-title">令和8年度 保育所等入所結果通知について</div>
+              </li>
+
+              <li class="news-item">
+                <div class="news-item-meta">
+                  <time class="news-item-date" datetime="2026-02-20">2026.02.20</time>
+                  <span class="news-tag mint">保育情報</span>
+                </div>
+                <div class="news-item-title">【春の献立】3・4月の給食メニューをご紹介します</div>
+              </li>
+
+              <li class="news-item">
+                <div class="news-item-meta">
+                  <time class="news-item-date" datetime="2026-02-10">2026.02.10</time>
+                  <span class="news-tag yellow">お知らせ</span>
+                </div>
+                <div class="news-item-title">2026年度 追加募集について（若干名・0歳児クラス）</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== アクセスセクション ===== -->
+    <section class="access" id="access" aria-labelledby="access-title">
+      <div class="container">
+        <div class="animate-on-scroll" style="text-align:center;margin-bottom:var(--space-md);">
+          <div class="section-label" style="justify-content:center;">ACCESS & INFO</div>
+          <h2 class="section-title" id="access-title">アクセス・園概要</h2>
+        </div>
+
+        <div class="access-inner">
+          <!-- 概要情報 -->
+          <div class="animate-on-scroll">
+            <div class="access-info-item">
+              <div class="access-info-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+              <div>
+                <div class="access-info-label">施設名</div>
+                <div class="access-info-value">ひだまり保育園（認可保育園）</div>
+              </div>
+            </div>
+            <div class="access-info-item">
+              <div class="access-info-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <div class="access-info-label">所在地</div>
+                <div class="access-info-value">〒154-0001<br>東京都世田谷区池尻1-23-4 ひだまりビル1F</div>
+              </div>
+            </div>
+            <div class="access-info-item">
+              <div class="access-info-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg>
+              </div>
+              <div>
+                <div class="access-info-label">アクセス</div>
+                <div class="access-info-value">
+                  東急田園都市線「池尻大橋駅」西口 徒歩5分<br>
+                  東急世田谷線「三軒茶屋駅」北口 徒歩12分
+                </div>
+              </div>
+            </div>
+            <div class="access-info-item">
+              <div class="access-info-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.62 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.53 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.09a16 16 0 0 0 6 6l.86-.86a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.91 16z"/></svg>
+              </div>
+              <div>
+                <div class="access-info-label">お電話</div>
+                <div class="access-info-value">
+                  <a href="tel:0334561234"
+                    style="color:var(--color-primary);font-weight:700;font-size:1.1rem;">03-3456-1234</a><br>
+                  <span style="font-size:0.8rem;color:var(--color-text-muted);">平日 7:00〜19:00（土曜は18:00まで）</span>
+                </div>
+              </div>
+            </div>
+            <div class="access-info-item">
+              <div class="access-info-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <div class="access-info-label">保育時間</div>
+                <div class="access-info-value">
+                  通常保育 7:00〜18:00<br>
+                  延長保育 18:00〜19:00
+                </div>
+              </div>
+            </div>
+            <div class="access-info-item">
+              <div class="access-info-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <div>
+                <div class="access-info-label">対象年齢・定員</div>
+                <div class="access-info-value">0歳〜5歳 / 定員30名</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 地図エリア -->
+          <div class="access-map animate-on-scroll" style="transition-delay:0.15s" aria-label="地図（クリックでGoogleマップを開く）">
+            <div class="map-placeholder">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6484.681287850506!2d139.67997827646303!3d35.64397808201846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f4afc1e14171%3A0x88d399e54059cea0!2z44CSMTU0LTAwMDEg5p2x5Lqs6YO95LiW55Sw6LC35Yy65rGg5bC777yR5LiB55uu!5e0!3m2!1sja!2sjp!4v1775433033543!5m2!1sja!2sjp"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 入園相談 CTAバナー ===== -->
+    <section class="cta-banner" id="contact" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="animate-on-scroll">
+          <h2 class="cta-banner-title" id="cta-title">
+            入園のご相談は<br>お気軽にどうぞ
+          </h2>
+          <p class="cta-banner-desc">
+            見学・入園のご相談を随時受け付けています。<br>
+            お電話・メール・フォームからいつでもお問い合わせください。<br>
+            実際に園の雰囲気を感じていただける見学会も開催中です。
+          </p>
+          <div class="cta-banner-actions">
+            <a href="tel:0334561234" class="btn btn-white">電話でのご相談</a>
+            <a href="#" class="btn btn-ghost-white">メールで問い合わせる</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== フッター ===== -->
+  <footer class="footer" aria-label="フッター">
+    <div class="container">
+      <div class="footer-inner">
+        <!-- ブランドゾーン -->
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="5" fill="#F9829A"/><ellipse cx="16" cy="6" rx="3.5" ry="5" fill="#FFB5C6"/><ellipse cx="16" cy="26" rx="3.5" ry="5" fill="#FFB5C6"/><ellipse cx="6" cy="16" rx="5" ry="3.5" fill="#FFB5C6"/><ellipse cx="26" cy="16" rx="5" ry="3.5" fill="#FFB5C6"/><ellipse cx="9" cy="9" rx="3.5" ry="5" transform="rotate(-45 9 9)" fill="#FFCDD9"/><ellipse cx="23" cy="9" rx="3.5" ry="5" transform="rotate(45 23 9)" fill="#FFCDD9"/><ellipse cx="9" cy="23" rx="3.5" ry="5" transform="rotate(45 9 23)" fill="#FFCDD9"/><ellipse cx="23" cy="23" rx="3.5" ry="5" transform="rotate(-45 23 23)" fill="#FFCDD9"/></svg></div>
+            <span>ひだまり保育園</span>
+          </div>
+          <p>
+            子どもたちひとりひとりの笑顔を大切に。<br>
+            安心・安全・のびのびと成長できる環境を<br>
+            地域のご家族と一緒につくっていきます。
+          </p>
+          <div class="social-links" aria-label="SNSリンク">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter/X">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="LINE">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- ナビリンク -->
+        <div>
+          <div class="footer-col-title">メニュー</div>
+          <ul class="footer-col-links">
+            <li><a href="#features">保育の特徴</a></li>
+            <li><a href="#schedule">一日の流れ</a></li>
+            <li><a href="#gallery">フォトギャラリー</a></li>
+            <li><a href="#news">お知らせ</a></li>
+            <li><a href="#access">アクセス</a></li>
+          </ul>
+        </div>
+
+        <!-- お問い合わせ -->
+        <div>
+          <div class="footer-col-title">ご相談・見学</div>
+          <ul class="footer-col-links">
+            <li><a href="#contact">入園のご相談</a></li>
+            <li><a href="#">見学会のご予約</a></li>
+            <li><a href="#">よくある質問</a></li>
+            <li><a href="#">保護者の方へ</a></li>
+            <li><a href="#">採用情報</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 ひだまり保育園. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">プライバシーポリシー</a>
+          <a href="#">サイトマップ</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== JavaScript ===== -->
+  <script>
+    // ヘッダー スクロール検知
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+
+    // スクロールアニメーション（Intersection Observer）
+    const animTargets = document.querySelectorAll('.animate-on-scroll');
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+    );
+    animTargets.forEach((el) => observer.observe(el));
+
+    // ハンバーガーメニュー（モバイル用）
+    const hamburger = document.getElementById('hamburger');
+    hamburger.addEventListener('click', () => {
+      const nav = document.querySelector('.header-nav');
+      const isOpen = nav.style.display === 'flex';
+      nav.style.display = isOpen ? '' : 'flex';
+      nav.style.flexDirection = 'column';
+      nav.style.position = 'fixed';
+      nav.style.top = '68px';
+      nav.style.left = '0';
+      nav.style.right = '0';
+      nav.style.background = 'rgba(255,251,252,0.97)';
+      nav.style.padding = '1.5rem 5%';
+      nav.style.gap = '1.2rem';
+      nav.style.backdropFilter = 'blur(16px)';
+      nav.style.borderBottom = '1px solid rgba(249,130,154,0.15)';
+      nav.style.zIndex = '99';
+    });
+
+    // スムーズスクロール（ナビリンク）
+    document.querySelectorAll('a[href^="#"]').forEach((link) => {
+      link.addEventListener('click', (e) => {
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          const headerH = 68;
+          const top = target.getBoundingClientRect().top + window.scrollY - headerH;
+          window.scrollTo({ top, behavior: 'smooth' });
+        }
+      });
+    });
+
+    // ===== スライドショー =====
+    (function () {
+      const slides = document.querySelectorAll('.slide');
+      const dots = document.querySelectorAll('.slideshow-dots .dot');
+      let current = 0;
+      let timer;
+
+      function goTo(index) {
+        slides[current].classList.remove('active');
+        dots[current].classList.remove('active');
+        current = (index + slides.length) % slides.length;
+        slides[current].classList.add('active');
+        dots[current].classList.add('active');
+      }
+
+      function next() {
+        goTo(current + 1);
+      }
+
+      function startTimer() {
+        timer = setInterval(next, 4000);
+      }
+
+      function resetTimer() {
+        clearInterval(timer);
+        startTimer();
+      }
+
+      // ドットクリック
+      dots.forEach((dot, i) => {
+        dot.addEventListener('click', () => {
+          goTo(i);
+          resetTimer();
+        });
+      });
+
+      startTimer();
+    })();
+  </script>
+</body>
+
+</html>
